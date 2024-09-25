@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import First from './1주차/index'
+import First from './미션/1주차/1week';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

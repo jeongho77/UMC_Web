@@ -1,0 +1,140 @@
+.container{
+    width : 100vw;
+    height : 100vw;
+    background-color: rgba(178, 216, 252, 0.404);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title{
+        height : 150px;
+        color : black;
+        font-size : 30px;
+        align-content: center;
+        font-weight: bold;
+    }
+
+    .todoListContainer {
+        width : 700px;
+        height : 100%;
+        border-top : 1px solid grey;
+
+        .inputText{
+            margin-top : 15px;
+            display: flex;
+            width : 100%;
+            padding : 15px 0px;
+        }
+
+        .list {
+            width : 100%;
+            display: flex;
+            flex-direction: row;
+            
+            .toDo {
+                width : 50%;
+                display: flex;
+                flex-direction: column;
+
+                .toDoTitle{
+                    width : 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                    font-size : 20px;
+                    font-weight: bold;
+                    text-decoration: underline;      
+                    text-decoration-color: rgb(201, 201, 127);  
+                }
+
+                .toDoList{
+                    
+                    width : 100%;
+                    margin-top: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .toDoContent{
+                    width: 70%;
+                    height: 40px;
+                    border-bottom: 1px solid grey;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    color: black;
+                    align-items: center;
+                    padding : 10px 0px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    button {
+                        background-color:rgb(200, 222, 245);
+                        border : 0;
+                        padding : 5px;
+                        cursor : pointer;
+                    }
+                }
+            }
+
+            .finish {
+                width : 50%;
+                display: flex;
+                flex-direction: column;
+
+                .finishTitle{
+                    width : 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                    font-size : 20px;
+                    font-weight: bold;
+                    text-decoration: underline;      
+                    text-decoration-color: rgb(201, 201, 127);  
+                }
+
+                .finishList{
+                    
+                    width : 100%;
+                    margin-top: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .toDoContent{
+                    width: 70%;
+                    height: 40px;
+                    border-bottom: 1px solid grey;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    color: black;
+                    align-items: center;
+                    padding : 10px 0px;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    button {
+                        background-color:rgb(200, 222, 245);
+                        border : 0;
+                        padding : 5px;
+                        cursor : pointer;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
