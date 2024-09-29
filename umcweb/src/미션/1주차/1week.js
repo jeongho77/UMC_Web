@@ -39,6 +39,8 @@ export default function Index() {
                 
                 //버튼 만들기
                 let button = document.createElement('button');
+
+                
                 button.textContent = "삭제"; // 버튼 텍스트 설정
                 button.onclick = (event) => {
                     const finishBtn = event.target
